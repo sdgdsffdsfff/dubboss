@@ -9,9 +9,10 @@ dubboss是一个分布式REST服务的框架,实现了如下功能:
 
 #### 如何快速使用
 
-1.  启动服务提供者: cn.injava.dubboss.service.starter.StartService
-2.  启动服务调用者: cn.injava.dubboss.server.starter.StartServer
-3.  通过浏览器访问 http://localhost:8080/hello/dubboss, 如果返回Hello开头的信息,表示REST调用成功
+1.  下载并启动zookeeper [下载地址](http://www.interior-dsgn.com/apache/zookeeper/zookeeper-3.4.6/zookeeper-3.4.6.tar.gz "zookeeper" target="_blank") 
+2.  启动服务提供者: cn.injava.dubboss.service.starter.StartService
+3.  启动服务调用者: cn.injava.dubboss.server.starter.StartServer
+4.  通过浏览器访问 http://localhost:8080/hello/dubboss, 如果返回Hello开头的信息,表示REST调用成功
 
 #### 如何打包并部署
 
